@@ -38,13 +38,13 @@
       <form action="/api/books" method="post" class="border">
         <h4>Test post to /api/books</h4>
         Book Title:<br>
-        <input type="text" name="title" value=""><br>
+        <input type="text" name="title" value="" required><br>
         <input type="submit" value="Submit">
       </form>
       <form action="" method="post" id="commentTest" class="border">
         <h4>Test post to /api/books/{bookid}</h4>
         BookId to comment on:<br>
-        <input type="text" name="id" value="" id="idinputtest"><br>
+        <input type="text" name="id" value="" id="idinputtest" required><br>
         Comment:<br>
         <input type="text" name="comment" value=""><br>
         <input type="submit" value="Submit">
